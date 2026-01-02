@@ -1,0 +1,11 @@
+#repository er git initialize krar kaj
+#one time each project to start git
+#.git hidden folder
+#command.txt will be green coloured
+git init
+#add . = shob file add
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/SereneEscalante/my-first-github.git
+git push -u origin main
